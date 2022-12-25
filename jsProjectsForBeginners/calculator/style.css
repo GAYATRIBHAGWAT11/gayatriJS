@@ -1,0 +1,17 @@
+.button{
+    padding: 20px;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.row{
+    margin-left: 50%;
+}
+input{
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
