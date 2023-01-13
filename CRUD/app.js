@@ -14,7 +14,7 @@ function addChapter(e) {
 
     let newLi = document.createElement('li')
     // newLi.classList.add(';ist-group-item')
-    newLi.className = "list-group-item d-flex justify-content-between"
+    newLi.className = "list-group-item d-flex"
     newLi.innerHTML += `<h3>${currentCahpter}</h3>
     <button class="btn btn-warning" onclick="editChapter(this)">Edit</button>
     <button class="btn btn-danger" onclick="removeChapter(this)">remove</button>`
@@ -24,6 +24,7 @@ function addChapter(e) {
 // remove functionality
 
 function removeChapter(currElem) {
+    console.log('im curr elem', currElem);
     currElem.parentElement.remove()
 
     if (parentList.children.length <= 0) {

@@ -35,3 +35,6 @@ class Student extends Person{
 let teacher1=new Teacher('Aish', 45, 70)
 teacher1.test()  
 // welcome Aish
+
+
+
